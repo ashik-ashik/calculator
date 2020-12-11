@@ -41,9 +41,9 @@ function clock(){
         document.getElementById('ampm').innerText = "AM"
     };
     if(second%2 == '0'){
-        document.getElementById('dot').style.color = "red";
+        document.getElementById('dot').style.color = "#fff";
     }else{
-        document.getElementById('dot').style.color = "#ffc404";
+        document.getElementById('dot').style.color = "#8600bb";
     }
     document.getElementById('year').innerText = date + " "+ month + ' , ' + year+ ' , '+  dayname ;
 }

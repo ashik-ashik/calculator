@@ -41,6 +41,7 @@ ul li{
     font-size: 17px;
     margin-bottom: 25px;
 }
+
 ul li input[type='button']{
     border: none;
     outline: 1px;
@@ -66,7 +67,7 @@ ul li input[type='button']:hover{
     
 }
 .oparetor{
-    background: #ffc404 !important;
+    background: #ff9b04 !important;
     color: #eee;
     
 }
@@ -94,9 +95,10 @@ ul li input[type='button']:hover{
 }
 .clock{
     padding: 6px ;
-    background: #ffc404;
+    background: #8600bb;
     margin-bottom: 8px;
     text-align: center;
+    color: #FFF;
 }
 .dot{
     font-weight: 900;
@@ -112,9 +114,11 @@ ul li input[type='button']:hover{
 #sec,h3{
     font-family: 'Parisienne', cursive;
 }
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 .date{
     padding: 6px;
     text-align: center;
     background: crimson;
+    font-family: 'Teko', sans-serif;
     color: #fff;
 }
