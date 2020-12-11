@@ -17,7 +17,7 @@ function clock(){
     var mon = mydate.getMonth();
     var year = mydate.getFullYear();
 
-    var da = ['Sunday','Monday','Tuesday','Wednesday','Thurshday','Friday','Saterday'];
+    var da = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     var dayname = da[day];
 
     var mo = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Oct','Nov','Dec'];
