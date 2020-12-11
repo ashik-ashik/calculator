@@ -38,7 +38,7 @@ function clock(){
     if(hour <12){
         document.getElementById('ampm').innerText = "AM"
     }else{
-        document.getElementById('ampm').innerText = "AM"
+        document.getElementById('ampm').innerText = "PM"
     };
     if(second%2 == '0'){
         document.getElementById('dot').style.color = "#fff";
