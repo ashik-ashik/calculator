@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css.css">
+
+
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <section class="" id="">
+        <div class="container">
+            <div class="calculator">
+                <h3 style="margin-top: 0;padding: 0;text-align: center;">Dynamic Calculator:</h3>
+                <form action="" name="form">
+                <div class="calculator-head">
+                    <input type="text" name="output" id="fNum" value="" placeholder="0">
+                    
+                </div>
+                
+                <div class="calculator-body">
+                    <ul>
+                        <li><input value="1" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="2" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="3" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="/" type="button" name="button" class="buttons oparetor" onclick="calculate(this.value)"></li>
+                    </ul>
+                    <ul>
+                        <li><input value="4" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="5" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="6" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="*" type="button" name="button" class="buttons oparetor" onclick="calculate(this.value)"></li>
+                    </ul>
+                    <ul>
+                        <li><input value="7" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="8" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="9" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="-" type="button" name="button" class="buttons oparetor" onclick="calculate(this.value)"></li>
+                    </ul>
+                    <ul>
+                        <li><input value="." type="button" name="button" class="buttons others" onclick="calculate(this.value)"></li>
+                        <li><input value="0" type="button" name="button" class="buttons number" onclick="calculate(this.value)"></li>
+                        <li><input value="%" type="button" name="button" class="buttons oparetor" onclick="calculate(this.value)"></li>
+                        <li><input value="+" type="button" name="button" class="buttons oparetor" onclick="calculate(this.value)"></li>
+                    </ul>
+                    <ul>
+                        <li><input value="c" type="button" name="button" class="buttons others" onclick="output.value = null"></li>
+                        <li><input value="00" type="button" name="button" class="buttons others" onclick="calculate(this.value)"></li>
+                        <li><input value="=" type="button" name="button" class="buttons equal" onclick="output.value = eval(output.value)"></li>
+                    </ul>
+                </div>
+                </form>
+                <div class="extra">
+                    <div class="clock">
+                        <span id="hour"></span>
+                        <span id="" class="dot">:</span>
+                        <span id="min"></span>
+                        <span id="dot" class="dot">:</span>
+                        <span id="sec"></span>
+                        <span id="ampm"></span>
+    
+                    </div>
+                    <div class="date">
+                        <span id="year"></span>
+    
+                    </div>
+                </div>
+                <small class="" style="font-size: 10px;">This Calculator Designed By MD ASHIK ALI.</small>
+            </div>
+
+        </div>
+    </section>
+
+
+
+<script src="js.js"></script>
+
+</body>
+</html>
