@@ -25,7 +25,15 @@ function clock(){
 
     if(hour < 10){
         document.getElementById('hour').innerText = '0'+hour + ' ';
-    }else{
+    }
+	if(hour>12){
+		var pm = hour - 12;
+		if(pm <10){
+			document.getElementById('hour').innerText = '0'+pm + " ";
+		}else{
+		document.getElementById('hour').innerText = pm + " ";
+		}
+	}else{
         document.getElementById('hour').innerText = hour + " ";
     };
 
