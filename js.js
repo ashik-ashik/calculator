@@ -26,7 +26,7 @@ function clock(){
     if(hour < 10){
         document.getElementById('hour').innerText = '0'+hour + ' ';
     }else{
-        document.getElementById('min').innerText = hour + " ";
+        document.getElementById('hour').innerText = hour + " ";
     };
     if(minute < 10){
     document.getElementById('min').innerText = '0'+minute + " ";
