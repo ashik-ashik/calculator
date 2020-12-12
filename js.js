@@ -28,23 +28,26 @@ function clock(){
     }else{
         document.getElementById('hour').innerText = hour + " ";
     };
+
     if(minute < 10){
     document.getElementById('min').innerText = '0'+minute + " ";
     }else{
         document.getElementById('min').innerText = minute + " ";
     };
 
-    document.getElementById('sec').innerText = second ;
+    document.getElementById('sec').innerText = second;
     if(hour <12){
-        document.getElementById('ampm').innerText = "AM"
+        document.getElementById('ampm').innerText = "AM";
     }else{
-        document.getElementById('ampm').innerText = "PM"
+        document.getElementById('ampm').innerText = "PM";
     };
+
     if(second%2 == '0'){
         document.getElementById('dot').style.color = "#fff";
     }else{
         document.getElementById('dot').style.color = "#8600bb";
-    }
+    };
+
     document.getElementById('year').innerText = date + " "+ month + ' , ' + year+ ' , '+  dayname ;
 }
-setInterval(clock, 1000)
+setInterval(clock, 1000);
